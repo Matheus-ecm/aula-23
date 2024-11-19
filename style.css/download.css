@@ -1,0 +1,54 @@
+.download {
+    display: flex;
+    background-color: var(--stroker-color);
+    width: 1216px;
+    height: 542px;
+    margin-top: 160px;
+    border-radius: 24px;
+    margin-left: 128px;
+    position: relative;
+    overflow: visible;
+}
+
+.rapaz-ouvindo-musica {
+    width: 466px;
+    height: 627px;
+    position: relative;
+    top: -85px;
+    left: 90px;
+}
+
+.download header {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos do header em coluna */
+    align-items: flex-start; /* Garante o alinhamento à esquerda */
+    margin-bottom: 20px; /* Espaço entre o header e os outros elementos */
+}
+
+
+
+.download header strong {
+    margin: 0; /* Remove margens padrão */
+    text-align: left; /* Garante o alinhamento do texto à esquerda */
+    margin-top: 80px; /* Adiciona espaçamento superior */
+    margin-left: 60px;
+}
+
+.download header h1 {
+    margin: 0; /* Remove margens padrão */
+    text-align: left; /* Garante o alinhamento do texto à esquerda */
+    margin-left: 60px;
+}
+
+.download p {
+    margin-left: 80px;
+}
+
+.App-store {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.Play-Store {
+    margin-left: 15px;
+}

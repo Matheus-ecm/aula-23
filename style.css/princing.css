@@ -1,0 +1,96 @@
+#princing {
+    margin-top: 160px;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+}
+
+
+strong {
+    text-align: center;
+}
+
+.basico {
+    background-color: var(--stroker-color);
+    width: 384px;
+    height: 480px;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+/*Basico*/
+
+.premium {
+    background-color: var(--stroker-color);
+    width: 384px;
+    height: 560px;
+    padding: 32px;
+    border-radius: 24px;
+    position: relative;
+    top: -40px;
+    display: inline-block;
+    position: relative;
+}
+
+.premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 24px; /* Borda arredondada */
+    padding: 2px; /* Tamanho da borda */
+    background: linear-gradient(to right, var(--brand-color-secondary), var(--brand-color-primary)); /* Gradiente */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+
+.premium > * {
+    position: relative;
+}
+
+/*Família*/
+
+.família {
+    background-color: var(--stroker-color);
+    width: 384px;
+    height: 480px;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+zin-pinsing {
+    display: flex; 
+    font-size: 3rem;
+    font-weight: bold;
+    height: 74px;
+}
+
+p {
+    color: var(--text-color-secondary);
+}
+
+.basico button, .família button, .premium button {
+    width: 100%;
+}
+
+small {
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}

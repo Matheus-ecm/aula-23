@@ -1,0 +1,67 @@
+:root{
+    --bg-color: #09090B;
+    --surfecer-color: #18181B;
+    --stroker-color: #27272A;
+    --text-color-primary: #F4F4F5;
+    --text-color-secondary: #A1A1AA;
+    --brand-color-primary: #F7B733;
+    --brand-color-secondary: #FC4A1A;
+
+/*fontes*/
+
+--ff-sans: 'Inter', 'stytem-ui', 'sans-serif'; /* Define uma fonte padrão */
+--fw-base: 400; /* Peso base da fonte */
+--fw-md: 500; /* Peso médio da fonte */
+--fw-bold: 800; /* Peso da fonte em negrito */
+
+--fs-sm: 0.875rem; /* Tamanho pequeno da fonte */
+--fs-base: 1rem;  /* Tamanho base da fonte */
+--fs-lg: 1.25rem; /* Tamanho grande da fonte */
+--fs-x1: 1.5rem; /* Tamanho extra grande da fonte */
+--fs-2x1: 2.5rem; /* Tamanho duplamente extra grande da fonte */
+
+--py-base: 1rem; /* Espaçamento vertical base */
+--py-lg: 1.5rem; /* Espaçamento vertical grande */
+--py-x1: 3rem; /* Espaçamento vertical extra grande */
+
+--px-lg: 1.5rem; /* Espaçamento horizontal grande */
+}
+
+html {
+    font-family: var(--ff-sans); /* Aplica a família de fontes definida na variável --ff-sans */
+    font-weight: var(--fw-base);/* Aplica o peso de fonte base */
+    font-size: var(--fs-base); /* Define o tamanho base da fonte */
+    line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+    color: var(--text-color-primary); /* Aplica a cor do texto principal, baseada na variável --text-color-primary*/
+
+    overflow-x: hidden; /* Oculta o conteúdo que ultrapassa a largura da página */
+    scroll-behavior: smooth; /* Suaviza a rolagem */
+}
+
+body {
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    font-weight: var(--fw-bold);
+    color: var(--text-color-primary);
+    letter-spacing: -0.04rem;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}

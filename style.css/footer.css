@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 160px;
+    padding: 0 32px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 128px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px; 
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+footer {
+    font-size: 14px;
+    color: var(--text-color-secondary);
+}
+
+
