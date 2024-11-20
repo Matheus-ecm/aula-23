@@ -94,3 +94,17 @@ hr {
     gap: 32px;
     margin-top: 32px;
 }
+
+@media (max-width: 768px) {
+    .pricing-container {
+        display: flex;
+        flex-direction: column; /* Empilha os planos */
+        gap: 16px;
+        align-items: center;
+    }
+
+    .basico, .premium, .família {
+        width: 100%;
+        height: auto;
+    }
+}

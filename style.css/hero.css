@@ -66,3 +66,25 @@
 }
 }
 }
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 32px; /* Reduz o tamanho do título */
+    }
+
+    #hero img {
+        width: 100%;
+        max-width: 300px; /* Ajusta a largura da imagem */
+        height: auto;
+    }
+
+    #hero p {
+        font-size: 16px; /* Reduz o tamanho do texto */
+        margin-top: 1rem;
+    }
+
+    #hero .botões {
+        flex-direction: column;
+        gap: 10px; /* Espaço entre os botões */
+    }
+}

@@ -31,3 +31,18 @@ header {
     font-weight: 500;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Empilha os itens */
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+}

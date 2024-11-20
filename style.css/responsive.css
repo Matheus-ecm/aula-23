@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
+    }
+    body {
+        padding: 0 16px; /* Adiciona margens laterais */
+    }
+}

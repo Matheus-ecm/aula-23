@@ -114,3 +114,21 @@
 .icon1 {
     padding: 30px;
 }
+
+@media (max-width: 768px) {
+    .features, .features-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; /* Espaço entre os itens */
+    }
+
+    .box1, .box2, .box3, .box4, .box5 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Tela_1, .Tela_2, .Tela_3 {
+        width: 100%;
+        height: auto;
+    }
+}

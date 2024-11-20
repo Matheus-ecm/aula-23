@@ -27,3 +27,22 @@ strong {
     width: 544px;
     height: 558px;
 }
+
+@media (max-width: 768px) {
+    #about .container {
+        flex-direction: column; /* Empilha o texto e a imagem */
+        align-items: center;
+        text-align: center;
+    }
+
+    #about .letra {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .desktop-only {
+        width: 80%;
+        height: auto;
+        position: static; /* Remove a posição absoluta */
+    }
+}
