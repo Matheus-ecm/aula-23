@@ -52,3 +52,50 @@
 .Play-Store {
     margin-left: 15px;
 }
+
+@media (max-width: 768px) {
+    .download {
+        margin-top: 30px;
+        width: 100%;
+        margin: 0 auto; /* Centraliza o contêiner */
+        display: flex; /* Mantenha flex para controle de layout */
+        flex-direction: column; /* Altere para coluna para mobile */
+        align-items: flex-start; /* Alinha à esquerda */
+        position: relative; /* Torna o contêiner uma referência para transformações */
+    }
+
+    .download * {
+        transform: translateY(-20px); /* Move os elementos para cima */
+    }
+
+    .App-store,
+    .Play-Store {
+        display: block; /* Garante que os botões se comportem como blocos */
+        margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+        margin-left: 24px;
+    }
+
+    .download header, .download p, .App-store {
+        text-align: left;
+        margin-left: 24px;
+    }
+
+    .download p{
+        margin-top: -50px;
+    }
+
+    .download header h1,
+    .download header strong {
+        text-align: left; /* Garante o alinhamento à esquerda */
+        margin-left: -24px;
+    }
+
+    .rapaz-ouvindo-musica {
+        margin: 20px auto; /* Centraliza apenas a imagem, se necessário */
+        width: 238px;
+        height: 320px;
+        top: -205px;
+        left: 160px;
+    }
+}
+

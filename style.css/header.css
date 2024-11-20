@@ -37,9 +37,18 @@ header {
         align-items: flex-start;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
+    @media (max-width: 768px) {
+        a[href="#app"], 
+        a[href="#function"], 
+        a[href="#planos"] {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .nav-links button.btn-lg-primay {
+            margin-left: 370px; /* Adiciona um espaço acima do botão */
+        }
     }
 
     .logo {

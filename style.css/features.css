@@ -116,10 +116,20 @@
 }
 
 @media (max-width: 768px) {
-    .features, .features-2 {
+    .features {
         display: flex;
-        flex-direction: column;
-        gap: 16px; /* Espaço entre os itens */
+        flex-direction: column; /* Empilha os boxes */
+        gap: 16px; /* Espaço entre os boxes */
+        align-items: center; /* Centraliza os boxes */
+        margin-left: -2px;
+    }
+
+    .features-2 {
+        display: flex;
+        flex-direction: column; /* Empilha os boxes */
+        gap: 16px; /* Espaço entre os boxes */
+        align-items: center; /* Centraliza os boxes */
+        margin-top: 710px;
     }
 
     .box1, .box2, .box3, .box4, .box5 {
@@ -130,5 +140,7 @@
     .Tela_1, .Tela_2, .Tela_3 {
         width: 100%;
         height: auto;
+        display: none;
     }
 }
+
