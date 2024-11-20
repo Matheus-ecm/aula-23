@@ -56,7 +56,9 @@
 @media (max-width: 768px) {
     .download {
         margin-top: 30px;
-        width: 100%;
+        
+        width: 327px;
+        height: 662px;
         margin: 0 auto; /* Centraliza o contêiner */
         display: flex; /* Mantenha flex para controle de layout */
         flex-direction: column; /* Altere para coluna para mobile */

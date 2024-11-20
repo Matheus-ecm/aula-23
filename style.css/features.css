@@ -129,7 +129,7 @@
         flex-direction: column; /* Empilha os boxes */
         gap: 16px; /* Espaço entre os boxes */
         align-items: center; /* Centraliza os boxes */
-        margin-top: 710px;
+        margin-top: 810px;
     }
 
     .box1, .box2, .box3, .box4, .box5 {
